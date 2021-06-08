@@ -1,3 +1,6 @@
+# python  -m venv <foldername> *** to create a virtual environment
+#  ../<foldername>/Scripts/activate *** to activate a virtual environment
+
 import os
 from dotenv import load_dotenv
 import requests

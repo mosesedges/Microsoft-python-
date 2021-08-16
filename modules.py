@@ -15,10 +15,11 @@ print(password)
 
 response = requests.get(password)
 
-scode = response.status_code
+s_code = response.status_code
 
 results = response.json()
 
 results = json.dumps(results)
 
 print(results)
+print()
